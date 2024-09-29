@@ -1,4 +1,21 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.karthikkompelli'
+            artifactId = 'moneytextview'
+            version = "1.6"
+            pom {
+                description = 'A custom Android TextView to display amounts of money in different formats'
+            }
+        }
+    }
+    repositories {
+        mavenLocal()
+    }
+}
 
 android {
     compileSdkVersion 30
