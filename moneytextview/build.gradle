@@ -1,16 +1,11 @@
-
 apply plugin: 'com.android.library'
 
-
-
-
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 30
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 25
+        targetSdkVersion 30
         versionCode 3
         versionName "1.1.0"
     }
@@ -20,13 +15,18 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    namespace 'org.fabiomsr.moneytextview'
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 
 }
 
-apply from: 'publish/config.gradle'
-apply from: 'publish/install.gradle'
-apply from: 'publish/bintray.gradle'
+//apply from: 'publish/config.gradle'
+//apply from: 'publish/install.gradle'
+//apply from: 'publish/bintray.gradle'
