@@ -31,7 +31,8 @@ dependencies {
     implementation project(':moneytextview')
 //    implementation 'com.github.karthikkompelli:AndroidPdfViewer:3.2.0-beta.1'
 //    implementation 'com.github.karthikkompelli:FabiomsrMoneyTextView:v1.0.8'
-//    implementation 'com.github.karthikkompelli:FabiomsrMoneyTextView:v1.0.8'
+//    implementation 'com.github.karthikkompelli:FabiomsrMoneyTextView:v1.0.9'
 //    implementation 'com.github.karthikkompelli:expandable-recycler-view:v1.5'
 //    implementation 'com.karthikkompelli:moneytextview:1.0.6'
+//    implementation 'com.karthikkompelli.fabiomsrmoneytextView:fabiomsrmoneytextView:1.0.8'
 }

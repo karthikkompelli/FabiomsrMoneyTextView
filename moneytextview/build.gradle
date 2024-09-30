@@ -4,9 +4,9 @@ apply plugin: 'maven-publish'
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId = 'com.karthikkompelli.fabiomsrmoneytextView'
+            groupId = 'com.github.karthikkompelli'
             artifactId = 'fabiomsrmoneytextView'
-            version = "1.0.8"
+            version = "1.1.0"
             pom {
                 description = 'FabiomsrMoneyTextView'
             }
