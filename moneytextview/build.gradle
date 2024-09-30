@@ -6,7 +6,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.karthikkompelli'
             artifactId = 'FabiomsrMoneyTextView'
-            version = "1.0.7"
+            version = "1.0.8"
             pom {
                 description = 'A custom Android TextView to display amounts of money in different formats'
             }
