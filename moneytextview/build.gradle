@@ -4,11 +4,11 @@ apply plugin: 'maven-publish'
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId = 'com.karthikkompelli'
-            artifactId = 'FabiomsrMoneyTextView'
+            groupId = 'com.karthikkompelli.fabiomsrmoneytextView'
+            artifactId = 'fabiomsrmoneytextView'
             version = "1.0.8"
             pom {
-                description = 'A custom Android TextView to display amounts of money in different formats'
+                description = 'FabiomsrMoneyTextView'
             }
         }
     }
